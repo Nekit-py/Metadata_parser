@@ -27,7 +27,7 @@ class MetadataParser:
                 self.exif_files.append(file)
 
 
-    def get_file_md(self, image):
+    def get_file_md(self, image: Path) -> pd.DataFrame:
         """
         Getting the file metadata
         """
